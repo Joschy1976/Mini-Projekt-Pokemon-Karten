@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Pokemon Card Viewer</h1>
+
+    <label for="pokemonSelect">Select Pokemon:</label>
+    <select id="pokemonSelect">
+        <option value="ditto">Ditto</option>
+        <option value="pikachu">Pikachu</option>
+        <option value="bulbasaur">Bulbasaur</option>
+        <option value="charmander">Charmander</option>
+        <option value="squirtle">Squirtle</option>
+        <option value="jigglypuff">Jigglypuff</option>
+        <option value="meowth">Meowth</option>
+        <option value="psyduck">Psyduck</option>
+        <option value="abra">Abra</option>
+        <option value="machop">Machop</option>
+        <option value="bellsprout">Bellsprout</option>
+        <option value="tentacool">Tentacool</option>
+        <option value="geodude">Geodude</option>
+        <option value="ponyta">Ponyta</option>
+        <option value="slowpoke">Slowpoke</option>
+        <option value="ekans">Ekans</option>
+        <option value="sandshrew">Sandshrew</option>
+        <option value="voltorb">Voltorb</option>
+        <option value="cubone">Cubone</option>
+        <option value="koffing">Koffing</option>
+        <option value="rhyhorn">Rhyhorn</option>
+        <option value="horsea">Horsea</option>
+        <option value="gastly">Gastly</option>
+        <option value="onix">Onix</option>
+        <option value="krabby">Krabby</option>
+        <option value="drowzee">Drowzee</option>
+        <option value="lickitung">Lickitung</option>
+        <option value="tangela">Tangela</option>
+        <option value="kangaskhan">Kangaskhan</option>
+        <option value="horsea">Horsea</option>
+        <option value="goldeen">Goldeen</option>
+        <option value="staryu">Staryu</option>
+        <option value="mr-mime">Mr. Mime</option>
+        <option value="scyther">Scyther</option>
+        <option value="jynx">Jynx</option>
+        <option value="electabuzz">Electabuzz</option>
+        <option value="magmar">Magmar</option>
+        <option value="pinsir">Pinsir</option>
+        <option value="tauros">Tauros</option>
+        <option value="magikarp">Magikarp</option>
+        <option value="lapras">Lapras</option>
+        <option value="ditto">Ditto</option>
+        <option value="eevee">Eevee</option>
+        <option value="porygon">Porygon</option>
+        <option value="snorlax">Snorlax</option>
+        <!-- Füge weitere Optionen für andere Pokémon hinzu, falls gewünscht -->
+    </select>
+
+    <button onclick="getPokemon()">Get Pokemon</button>
+
+    <!-- Ladeindikator -->
+    <div id="loader" style="display: none;">Loading...</div>
+
+    <div id="pokemonCard"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
